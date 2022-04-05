@@ -1,5 +1,13 @@
 public class Mascota {
 	private String nombre;
+	private String color;
+	
+	
+	public Mascota(String nombre, String color) {
+		super();
+		this.nombre = nombre;
+		this.color = color;
+	}
 
 	public Mascota(String nombre) {
 		this.nombre = nombre;
@@ -8,6 +16,15 @@ public class Mascota {
 
 	public String getNombre() {
 		return nombre;
+	}
+	
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
 	}
 
 	public void setNombre(String nombre) {
